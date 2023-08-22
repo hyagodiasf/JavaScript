@@ -5,7 +5,7 @@ const listaPalavra= [
     },
     {
         palavra: "notebook",
-        dica: "É para trabanho e tem tela"
+        dica: "É para trabalhar e tem tela"
     },
     {
         palavra: "livro",
