@@ -20,9 +20,13 @@ const iniGame = (button, clickLetter) => {
             }
         })
     } else {
+        button.disabled = true;
         errado++;
+        document.querySelector('.box-forca img').src = `images/forca-${errado}.svg`
     }
     document.querySelector('.guesses-text b').innerText = `${errado} / ${total}`;
+    if (errado === total) return gameOver(false);
+    if ()
 }
 
 for (let i = 97; i <= 122; i++) {

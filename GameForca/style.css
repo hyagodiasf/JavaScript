@@ -91,6 +91,12 @@ h1 {
     border-radius: 4px;
     text-transform: uppercase;
 }
+
+.keyboard button[disabled] {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
 .keyboard button {
     padding: 7px;
     width: calc(100% / 9 - 5px);
@@ -153,6 +159,7 @@ h1 {
         align-items: center;
         margin-bottom: 30px;
     }
+
     .box-forca img {
         max-width: 200px;
     }
@@ -161,5 +168,3 @@ h1 {
         display: none;
     }
 }
-
-
